@@ -1,0 +1,28 @@
+This repository is meant to organize code and other TEXT works I have made for
+courses I am taking for the Winter 2017 semester at Eastern Michigan University.
+
+There are a few rules for this repository and they are as follows:
+
+    1.  No binary files. None. Any needed will be kept at a different location.
+        All files must be human readable with a text editor.*
+    2.  Each course receives it's own branch. They will be named in this format:
+        XXXX### (for example COSC314).
+    3.  Each assignment/project gets its own directory under the appropriate
+        branch.
+    4.  No IDE specific files/directories. This is mainly to avoid unneeded
+        clutter.
+    5.  All programs *should* be accompanied by a Makefile, to make things quick
+        to compile and run, if needed.
+    6.  All branches must be orphans.
+    7.  All code must follow my general coding style, unless there's a strong
+        objection from an instructor.
+    8.  All code here is licensed under an ISC license unless otherwise stated,
+        see LICENSE in the master branch.
+    9.  All non-code creative works are licensed under a Creative Commons
+        Attribution 4.0 International License unless otherwise stated. See CC for
+        in the master branch.
+    10. Any changes to this file must be clearly documented in the commit
+        message.
+
+* The only acceptible exception are files that are small-ish and necessary like
+  images and binary data files.
