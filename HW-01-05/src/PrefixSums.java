@@ -24,8 +24,6 @@ public class PrefixSums {
 
     public static void print_array(String prefix, int[] arr) {
         System.out.printf("%-7s ", prefix);
-
-        if (arr.length == 0) return;
        
         for (int i : arr) {
             System.out.printf("%3d ", i);
