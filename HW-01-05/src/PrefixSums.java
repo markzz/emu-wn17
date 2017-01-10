@@ -7,13 +7,15 @@
  */
 
 public class PrefixSums {
-    public static void prefix_sum(int[] arr) {
-        int i;
-
+    public static void validate_array(int[] arr) {
         if (arr.length == 0 || arr[0] != 0) {
             System.err.println("Array malformed, bailing...");
             System.exit(0);
         }
+    }
+
+    public static void prefix_sum(int[] arr) {
+        int i;
 
         for (i = 1; i < arr.length; i++) {
             arr[i] = arr[i] + arr[i - 1];
@@ -34,6 +36,7 @@ public class PrefixSums {
 
     public static void main(String[] argv) {
         int[] arr = {0, 2, 4, 6, 1};
+        validate_array(arr);
         print_array("data", arr);
         prefix_sum(arr);
         print_array("prefSum", arr);
