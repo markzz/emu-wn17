@@ -1,0 +1,2 @@
+original list:   0   2   4   6   1 
+modified list:   0   2   6   1 
