@@ -1,6 +1,6 @@
 /*
  * Mark Weiman
- * https://github.com/markzz/emu-wn17/blob/COSC311/HW-01-10/LinkedList.java
+ * https://github.com/markzz/emu-wn17/blob/COSC311/HW-01-12/LinkedList.java
  * COSC 311
  * HW 01/12
  * WINTER 2017

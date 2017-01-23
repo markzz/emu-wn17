@@ -1,6 +1,6 @@
 /*
  * Mark Weiman
- * https://github.com/markzz/emu-wn17/blob/COSC311/HW-01-10/Main.java
+ * https://github.com/markzz/emu-wn17/blob/COSC311/HW-01-12/Main.java
  * COSC 311
  * HW 01/10
  * WINTER 2017
