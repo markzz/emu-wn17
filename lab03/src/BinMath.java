@@ -88,11 +88,8 @@ public class BinMath {
             s2_chars[i] = s2_chars[i] == 49 ? '0' : '1';
         }
         tmp = String.valueOf(s2_chars);
-        
-        /* add one */
-        tmp = add(tmp, "00000001");
 
-        return add(s1, tmp);
+        return add(s1, add(tmp, "00000001"));
     }
 
     public static void main(String[] argv) {
