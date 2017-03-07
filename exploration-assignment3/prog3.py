@@ -27,7 +27,7 @@ for x in range(1, limit+1):
         list3 = [list(zip(list1[:x], item)) for item in product(list2[:y], repeat=len(list1[:x]))]
         count = 0
 
-        # loop through and count how many one-to-one functions there are
+        # loop through and count how many onto functions there are
         for z in range(0, len(list3)):
             tmp = []
             
