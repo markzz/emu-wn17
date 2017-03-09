@@ -1,3 +1,10 @@
+/*
+ * Mark Weiman
+ * COSC-314
+ * Part 2 - Programming Assignment 2
+ * Graph class
+ */
+
 import java.util.Arrays;
 
 public class Graph {

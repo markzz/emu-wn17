@@ -1,3 +1,10 @@
+/*
+ * Mark Weiman
+ * COSC-314
+ * Part 1 - Programming Assignment 2
+ * Main class
+ */
+
 import java.io.*;
 import java.util.Random;
 import java.util.Scanner;

@@ -1,3 +1,10 @@
+/*
+ * Mark Weiman
+ * COSC-314
+ * Part 1 - Programming Assignment 2
+ * Graph class
+ */
+
 import java.util.Arrays;
 
 public class Graph {
@@ -61,9 +68,6 @@ public class Graph {
         int i, j, max_len = 0;
         String ret = "";
 
-        /* This block is to help make the strings look pretty.
-         * Damn efficiency to hell!
-         */
         for (i = 0; i < this.matrix.length; i++) {
             for (j = 0; j < this.matrix.length; j++) {
                 if (this.matrix[i][j] == Integer.MAX_VALUE) {
